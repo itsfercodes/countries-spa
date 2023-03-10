@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const CountryCard: FC<{ name: string }> = ({ name }) => {
-  return <div>I&apos;m a {name}!!</div>;
+const CountryCard: FC<{ country: any }> = ({ country }) => {
+  return <div>I&apos;m {country.name.common}!!</div>;
 };
 export default CountryCard;
